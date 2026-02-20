@@ -1,6 +1,6 @@
 # Lern-Periode-9
 
-# Auswahl
+## Auswahl
 In der vorherigen Lernperiode habe ich TypeScript als Frontend-Technologie verwendet.
 In dieser Lernperiode habe ich mich für Node.js mit Express als Backend-Technologie entschieden. Dadurch kann ich ein Frontend mit einem Backend verbinden und APIs erstellen.
 Node.js verwendet JavaScript, was das Lernen einfacher macht, da ich durch TypeScript bereits mit der Syntax vertraut bin.
