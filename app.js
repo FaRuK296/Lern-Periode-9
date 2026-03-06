@@ -1,21 +1,17 @@
-const express = require('express');
+const express = require("express");
+const cors = require("cors");
+
+const playRouter = require("./routes/play");
 const app = express();
-const port = 3000;
 
-app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    next();
-});
+app.use(cors());
+app.use(express.json());
 
-app.get('/api/hello', (req, res) => {
-    res.json({
-        message: "Hello from Express backend!"
-    });
-});
+app.use("/api", playRouter);
 
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
-});
+module.exports = app;
+
+
 
 
 
