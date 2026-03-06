@@ -35,7 +35,7 @@ Heute habe ich mein Backend mit Node.js und Express weiter aufgebaut. Ich habe d
 Heute habe ich mein Backend weiterentwickelt und die Spiellogik meines Rock-Paper-Scissors Spiels vom Frontend ins Backend verschoben. Dafür habe ich im Backend eine Route /api/play erstellt, die die Spielauswahl vom Frontend entgegennimmt. Das Backend generiert eine zufällige Gegnerauswahl und berechnet das Resultat der Runde. Zusätzlich habe ich eine Validierung eingebaut, damit nur gültige Eingaben wie „rock“, „paper“ oder „scissors“ akzeptiert werden. Danach habe ich mein Frontend so angepasst, dass es die Spielauswahl mit fetch() an das Backend sendet und die Antwort verarbeitet. Beim Testen ist jedoch ein Problem aufgetreten: Obwohl ich eine Auswahl eingebe, wird im Frontend teilweise „undefined“ angezeigt. Dieses Problem werde ich in der nächsten Sitzung untersuchen und beheben.
 
 ## 13.03.2026
--[ ] Fehler im Frontend beheben. (Das Problem untersuchen, warum im Spiel „Your choice: undefined“ angezeigt wird)
--[ ] Kommunikation zwischen Frontend und Backend überprüfen. (Sicherstellen, dass das Frontend die richtige Eigenschaft (playerChoice) an das Backend sendet und die Antwort (playerChoice, enemyChoice, result) korrekt verwendet.)
--[ ] Spiellogik sauber im Backend dokumentieren. (Überprüfen, ob die Spiellogik vollständig im Backend läuft und das Frontend nur noch für die Anzeige und Eingabe zuständig ist.)
--[ ] Spieloberfläche verbessern. (Das Spiel im Frontend weiter verbessern, z.B. durch bessere Anzeige des Ergebnisses im HTML statt über alert() oder prompt().)
+- [ ] Fehler im Frontend beheben. (Das Problem untersuchen, warum im Spiel „Your choice: undefined“ angezeigt wird)
+- [ ] Kommunikation zwischen Frontend und Backend überprüfen. (Sicherstellen, dass das Frontend die richtige Eigenschaft (playerChoice) an das Backend sendet und die Antwort (playerChoice, enemyChoice, result) korrekt verwendet.)
+- [ ] Spiellogik sauber im Backend dokumentieren. (Überprüfen, ob die Spiellogik vollständig im Backend läuft und das Frontend nur noch für die Anzeige und Eingabe zuständig ist.)
+- [ ] Spieloberfläche verbessern. (Das Spiel im Frontend weiter verbessern, z.B. durch bessere Anzeige des Ergebnisses im HTML statt über alert() oder prompt().)
