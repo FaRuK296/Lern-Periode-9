@@ -27,7 +27,7 @@ Dieses Tutorial hat mir geholfen, ein Hello World zu erstellen: https://www.yout
 Heute habe ich mein Backend mit Node.js und Express weiter aufgebaut. Ich habe die Projektstruktur verbessert und die Dateien in src, routes und game aufgeteilt. Danach habe ich den Server korrekt eingerichtet und darauf geachtet, dass JSON-Daten mit express.json() verarbeitet werden können. Ich habe eine POST-Route /api/play erstellt, über die das Frontend eine Spielauswahl senden kann. Zusätzlich habe ich begonnen, die Spiellogik aus dem Frontend ins Backend zu verschieben und eine Funktion erstellt, die eine zufällige Gegnerauswahl generiert. Beim Testen mit PowerShell sind Import- und Pfadprobleme aufgetreten, die ich durch Anpassen der Ordnerstruktur teilweise beheben konnte. Der Server läuft nun auf Port 3000 und die Route ist erreichbar.
 
 ## 6.03.2026
-- [ ] Import-/Export-Problem vollständig lösen. (rps.js korrekt exportieren, play.js korrekt importieren, Route erfolgreich testen)
+- [x] Import-/Export-Problem vollständig lösen. (rps.js korrekt exportieren, play.js korrekt importieren, Route erfolgreich testen)
 - [ ] Gewinnerlogik im Backend fertigstellen. (Funktion getResult(player, enemy), Rückgabe von "win" | "lose" | "draw", JSON-Response erweitern)
 - [ ] Eingabe validieren (nur Rock, paper, scissors erlauben, bei falscher Eingabe HTTP 400 Senden)
 - [ ] Frontend an Backend anbinden. (fetch("/api/play") verwenden, Ergebnis im HTML anzeigen, Prompt/Alert entfernen)
