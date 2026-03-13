@@ -1,3 +1,6 @@
+// routes/play.js
+// This file defines the route for playing the Rock-Paper-Scissors game.
+
 const express = require('express');
 const router = express.Router();
 
