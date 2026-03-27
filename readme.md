@@ -48,3 +48,7 @@ Heute habe ich mein Rock-Paper-Scissors Projekt weiterentwickelt und die Spiello
 - [x] Spieleraudwahl über Buttons. (Für Rock Paper und Scissors einen Button erstellen damit der Benutzer nicht über ein Eingabefeld spielen muss)
 - [x] Ergebnis im HTML anzeigen (Die Antwort vom Backend (playerChoice, enemyChoice, result) im Frontend sichtbar machen und den aktuellen Punktestand sauber auf der Seite darstellen.)
 - [x] Code säubern und ordner gut organisieren
+
+Heute habe ich das Frontend meines Rock-Paper-Scissors Spiels verbessert. Ich habe prompt() und alert() entfernt und stattdessen eine Anzeige im HTML eingebaut. Die Spielauswahl erfolgt nun über Buttons für Rock, Paper und Scissors. Das Frontend sendet die Auswahl an das Backend und zeigt die Antwort mit Spielerwahl, Gegnerwahl, Resultat und Punktestand direkt auf der Seite an. Dadurch ist die Anwendung übersichtlicher und moderner aufgebaut.
+Ich habe ein Tutorial für dieses Projekt erstellt und dieses auf GitHub hochgeladen. Dafür habe ich im Repository einen „docs“-Ordner erstellt und darin eine „index.md“-Datei angelegt. Anschliessend habe ich GitHub Pages aktiviert, sodass das Tutorial als Webseite angezeigt wird. Am Ende habe ich den Link zur Seite erstellt, damit man das Tutorial direkt im Browser öffnen kann.
+
