@@ -44,7 +44,7 @@ Heute habe ich mein Rock-Paper-Scissors Projekt weiterentwickelt und die Spiello
 
 
 ## 27.3.2026
-- [ ] Frontend-Anzeige verbessern. (prompt() und alert() ersetzen und stattdessen eine einfache Anzeige im HTML bauen, damit das Spiel übersichtlicher wird und moderner funktioniert.)
-- [ ] Spieleraudwahl über Buttons. (Für Rock Paper und Scissors einen Button erstellen damit der Benutzer nicht über ein Eingabefeld spielen muss)
-- [ ] Ergebnis im HTML anzeigen (Die Antwort vom Backend (playerChoice, enemyChoice, result) im Frontend sichtbar machen und den aktuellen Punktestand sauber auf der Seite darstellen.)
-- [ ] Code säubern und ordner gut organisieren
+- [x] Frontend-Anzeige verbessern. (prompt() und alert() ersetzen und stattdessen eine einfache Anzeige im HTML bauen, damit das Spiel übersichtlicher wird und moderner funktioniert.)
+- [x] Spieleraudwahl über Buttons. (Für Rock Paper und Scissors einen Button erstellen damit der Benutzer nicht über ein Eingabefeld spielen muss)
+- [x] Ergebnis im HTML anzeigen (Die Antwort vom Backend (playerChoice, enemyChoice, result) im Frontend sichtbar machen und den aktuellen Punktestand sauber auf der Seite darstellen.)
+- [x] Code säubern und ordner gut organisieren
