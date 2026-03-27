@@ -58,12 +58,12 @@ At the end of this tutorial, you will have a Rock Paper Scissors game in which t
 
 
 ## What could go wrong?
-the backend server is not running
-the frontend sends the wrong JSON key
-the route path is incorrect
-express.json() is missing
-CORS is not enabled
-import/export paths are wrong
+- the backend server is not running
+- the frontend sends the wrong JSON key
+- the route path is incorrect
+- express.json() is missing
+- CORS is not enabled
+- import/export paths are wrong
 
 
 
