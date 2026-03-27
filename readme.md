@@ -43,7 +43,7 @@ Heute habe ich mein Backend weiterentwickelt und die Spiellogik meines Rock-Pape
 Heute habe ich mein Rock-Paper-Scissors Projekt weiterentwickelt und die Spiellogik vom Frontend ins Backend verschoben. Ich habe im Backend eine Route /api/play erstellt, die die Spielauswahl vom Frontend entgegennimmt. Beim Testen konnte ich sehen, dass das Backend korrekt antwortet und die Spielrunde berechnet.
 
 
-## 20.3.2026
+## 27.3.2026
 - [ ] Frontend-Anzeige verbessern. (prompt() und alert() ersetzen und stattdessen eine einfache Anzeige im HTML bauen, damit das Spiel übersichtlicher wird und moderner funktioniert.)
 - [ ] Spieleraudwahl über Buttons. (Für Rock Paper und Scissors einen Button erstellen damit der Benutzer nicht über ein Eingabefeld spielen muss)
 - [ ] Ergebnis im HTML anzeigen (Die Antwort vom Backend (playerChoice, enemyChoice, result) im Frontend sichtbar machen und den aktuellen Punktestand sauber auf der Seite darstellen.)
